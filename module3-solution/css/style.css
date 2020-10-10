@@ -1,0 +1,232 @@
+body{
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: gray;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.navbar-brand{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.navbar-brand h1{
+	font-family: 'Lora' serif;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 0px;
+	line-height: .75
+	margin-left: 0px;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	position: relative;
+	float: right;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	`text-decoration: none;
+}
+
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+hr{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0px;
+	width: 100%;
+}
+
+#nav-list{
+	margin-top: -5px;
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: white;
+}
+
+#nav-list span a{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -70px;
+}
+
+
+#main-h2{
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#div1,#div2,#div3 {
+ background-color: gray;
+  box-sizing: border-box;
+  margin: 40px;
+  width: 300px;
+  background-position: center;
+  position: relative;
+}
+
+
+div#container{
+  background-color: white;
+  border: none;
+}
+p{
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+section{
+  text-align: left;
+  margin: 20px 15px 15px 15px;
+
+}
+
+/********SIMPLE FRAMEWORK******/
+.row {
+  width: 100%;
+}
+@media(min-width: 1200px){
+
+	.container .row{
+		height: 675px;
+	}
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	.container .row{
+		height: 553px;
+	}
+	.navbar-barnd h1{
+		padding-top: 20px;
+		font-size: 12vw;
+	}
+	#div1,#div2,#div3 {
+	  background-color: gray;
+	  margin: 30px;
+	  box-sizing: border-box;
+	  width: 250px;
+	  background-position: center;
+	  position: relative;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.container .row{
+		height: 432px;
+	}
+	.navbar-barnd h1{
+		padding-top: 5px;
+		font-size: 12vw;
+	}
+
+	#div1,#div2,#div3 {
+	  background-color: gray;
+	  margin: 30px;
+	  box-sizing: border-box;
+	  width: 250px;
+	  background-position: center;
+	  position: relative;
+	}
+
+	#div1, #div2{
+		width: 40%;
+		margin: 35px;
+	}
+	#div3{
+		width: 90%;
+	}
+
+}
+
+@media(max-width: 767px){
+
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	#main-h2{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+
+	.navbar-brand img p {
+		height: 20px;
+	}
+
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.container .row{
+		margin-top: -30px;
+		padding: 0;
+	}
+
+	#div1, #div2, #div3{
+		width: 100%;
+		margin: 30px;
+	}
+
+	#main-h2{
+		margin-bottom: 0px;
+		font-size: 4vw;
+	}
+}
+
+@media{
+	#menu-tile, #specials-tile{
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+
+	.navbar-barnd h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+	#main-h2{
+		padding-top: 5px;
+		font-size: 4vw;
+	}
+}
